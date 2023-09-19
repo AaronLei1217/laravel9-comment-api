@@ -12,4 +12,4 @@ Route::get('/messages', 'MessageController@index');
 Route::post('/messages', 'MessageController@create');
 
 // 刪除特定id留言
-// Route::delete('/messages/{id}', 'MessageController@delete');
+Route::delete('/messages/{id}', 'MessageController@delete');
